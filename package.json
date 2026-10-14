@@ -1,0 +1,35 @@
+{
+  "name": "agileplace-mcp",
+  "version": "1.5.1",
+  "type": "module",
+  "description": "AgilePlace MCP server for AgilePlace boards and Planview OKRs",
+  "main": "src/server.mjs",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "lint": "eslint src/",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "agileplace",
+    "planview",
+    "okr"
+  ],
+  "author": "Planview, Inc.",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/ext-apps": "^1.1.2",
+    "@modelcontextprotocol/sdk": "^1.18.2",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.0",
+    "globals": "^17.6.0",
+    "vitest": "^2.1.9"
+  }
+}

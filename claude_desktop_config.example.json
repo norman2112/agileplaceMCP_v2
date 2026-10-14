@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "agileplace": {
+      "command": "node",
+      "args": [
+        "/path/to/agileplaceMCP_v2/src/server.mjs"
+      ],
+      "env": {
+        "AGILEPLACE_DEFAULT_URL": "https://your-instance.leankit.com/io",
+        "AGILEPLACE_DEFAULT_TOKEN": "your-api-token",
+        "AGILEPLACE_ACME_URL": "https://acme.leankit.com/io",
+        "AGILEPLACE_ACME_TOKEN": "acme-api-token"
+      }
+    }
+  }
+}
